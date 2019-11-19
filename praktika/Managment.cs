@@ -13,7 +13,11 @@ namespace praktika
     public partial class Managment : Form
     {
         FLogin F;
+
         string photopath = "";
+
+        List<Order> O;
+
         public Managment(FLogin _F)
         {
             F = _F;
@@ -22,12 +26,20 @@ namespace praktika
 
         private void Managment_Load(object sender, EventArgs e)
         {
+            O = new SQL().getOrders();
 
+            int id = 0;
+
+            for (int i = 0; i < O.Count; i++)
+            {
+                listBox1.Items.Add(string.Format("{0}. {1} {2}", id + 1, O[i].GetName(), O[i].GetPhone()));
+                id++;
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+
             try
             {
                 new SQL().InsertProduct(textBox1.Text, comboBox1.SelectedIndex, photopath, Convert.ToInt32(numericUpDown1.Value), textBox2.Text);
@@ -37,7 +49,7 @@ namespace praktika
             {
                 MessageBox.Show("Klaida! Kreipkites 862530072");
             }
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -57,7 +69,7 @@ namespace praktika
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("klaida:"+ex.ToString());
+                    MessageBox.Show("klaida:" + ex.ToString());
                 }
             }
 
@@ -66,6 +78,22 @@ namespace praktika
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string OrderDetails = O[listBox1.SelectedIndex].GetWOrder();
+
+            string[] OrderSplit = OrderDetails.Split('|');
+
+            string OrderOutput = "Užsakymas:\n";
+
+            for (int i = 0; i < OrderSplit.Length; i++)
+            {
+                OrderOutput += new SQL().GetItemNameByID(Convert.ToInt32(OrderSplit[i])) + "\n";
+            }
+
+            label7.Text = OrderOutput;
         }
     }
 }

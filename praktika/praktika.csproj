@@ -76,6 +76,7 @@
     <Compile Include="Managment.Designer.cs">
       <DependentUpon>Managment.cs</DependentUpon>
     </Compile>
+    <Compile Include="Order.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

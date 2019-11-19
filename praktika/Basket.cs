@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace praktika
 {
-    public class Basket : Product
+    public class Basket : Product // paveldėjimas
     {
+        //inkapsuliacija, jeigu klase(basket) kvieciama kitoje klaseje, tai ID nematysim jeigu norim nustatyt ID reiksme reikia naudoti get/set metodus
         private int ID;
 
         public Basket()
         {
 
         }
-
-        public void setID(int x)
+        //inkapsuliacijos
+        public void setID(int x) 
         {
             ID = x;
         }

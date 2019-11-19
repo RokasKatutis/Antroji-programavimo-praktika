@@ -16,3 +16,4 @@ C:\Users\Rokas\source\repos\praktika\praktika\bin\Debug\System.Data.SQLite.dll.c
 C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.csproj.CopyComplete
 C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.FLogin.resources
 C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.Managment.resources
+C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.csprojAssemblyReference.cache
