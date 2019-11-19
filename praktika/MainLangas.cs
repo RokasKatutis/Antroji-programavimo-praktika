@@ -12,11 +12,11 @@ namespace praktika
 {
     public partial class MainLangas : Form
     {
-        Form1 Forma;
-        public MainLangas(Form1 F)
+        FLogin Forma;
+        public MainLangas()
         {
             InitializeComponent();
-            Forma = F;
+          
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -28,7 +28,7 @@ namespace praktika
         private void button2_Click(object sender, EventArgs e)
         {
 
-            Shop Pard = new Shop();
+            Shop Pard = new Shop(this);
             Pard.Show();
            
             
@@ -36,7 +36,7 @@ namespace praktika
 
         private void MainLangas_Load(object sender, EventArgs e)
         {
-
+            new SQL().CreateTable();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -48,7 +48,8 @@ namespace praktika
 
         private void button4_Click(object sender, EventArgs e)
         {
-          
+            new FLogin(this).Show();
+            
             
         }
     }

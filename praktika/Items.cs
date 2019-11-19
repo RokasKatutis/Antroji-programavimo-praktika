@@ -21,7 +21,7 @@ namespace praktika
         public void setTitle(string TITLE)
         {
             Title = TITLE;
-           LblText.Content= Title;
+         
         }
         public string GetTitle()
         {
