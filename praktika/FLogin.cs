@@ -37,15 +37,17 @@ namespace praktika
 
         private void button1_Click(object sender, EventArgs e)
         {
+            SQL _SQL = new SQL();
 
-
-            if (true)
+            if (_SQL.userExists(textBox1.Text,maskedTextBox1.Text))
             {
-              
+                new Managment(this).Show();
+                MessageBox.Show("prisijungta!");
+                Hide();
             }
             else
             {
-             
+                MessageBox.Show("Duomenys neteisingi!");
             }
         }
 

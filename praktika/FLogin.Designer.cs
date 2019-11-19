@@ -45,14 +45,17 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(174, 22);
             this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "Admin";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // maskedTextBox1
             // 
             this.maskedTextBox1.Location = new System.Drawing.Point(103, 287);
             this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.PasswordChar = '*';
             this.maskedTextBox1.Size = new System.Drawing.Size(174, 22);
             this.maskedTextBox1.TabIndex = 1;
+            this.maskedTextBox1.Text = "Admin";
             // 
             // label1
             // 

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.IO;
 namespace praktika
 {
     public partial class MainLangas : Form
@@ -16,7 +16,7 @@ namespace praktika
         public MainLangas()
         {
             InitializeComponent();
-          
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -30,27 +30,31 @@ namespace praktika
 
             Shop Pard = new Shop(this);
             Pard.Show();
-           
-            
+
+
         }
 
         private void MainLangas_Load(object sender, EventArgs e)
         {
-            new SQL().CreateTable();
+            if (!File.Exists("a.db"))
+            {
+                SQL _SQL = new SQL();
+                _SQL.CreateTable();
+                _SQL.InsertUser("Admin", "Admin");
+            }
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Krepselis Krep = new Krepselis();
-            Krep.Show();
-           
+
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             new FLogin(this).Show();
-            
-            
+
+
         }
     }
 }

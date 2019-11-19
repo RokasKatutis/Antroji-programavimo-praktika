@@ -28,19 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -54,44 +44,21 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Location = new System.Drawing.Point(12, 94);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 49);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Mikrofonai";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.Location = new System.Drawing.Point(12, 38);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(134, 50);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Ausinės";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Location = new System.Drawing.Point(12, 149);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(134, 49);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Kolonėlės";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Gold;
-            this.button4.Location = new System.Drawing.Point(15, 370);
+            this.button4.Location = new System.Drawing.Point(12, 479);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(134, 49);
             this.button4.TabIndex = 3;
@@ -99,54 +66,10 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // listView1
-            // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader2,
-            this.columnHeader3});
-            this.listView1.Location = new System.Drawing.Point(152, 38);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(264, 180);
-            this.listView1.TabIndex = 5;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Pavadinimas";
-            this.columnHeader2.Width = 138;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Kaina";
-            this.columnHeader3.Width = 68;
-            // 
-            // listView2
-            // 
-            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader4});
-            this.listView2.Location = new System.Drawing.Point(152, 252);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(264, 198);
-            this.listView2.TabIndex = 6;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            this.listView2.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Pavadinimas";
-            this.columnHeader1.Width = 138;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Kaina";
-            this.columnHeader4.Width = 68;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(247, 232);
+            this.label1.Location = new System.Drawing.Point(124, 241);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 17);
             this.label1.TabIndex = 7;
@@ -156,26 +79,16 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(261, 18);
+            this.label2.Location = new System.Drawing.Point(124, 18);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 17);
             this.label2.TabIndex = 8;
             this.label2.Text = "Prekės";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 18);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 17);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Pasirinkite kategoriją";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Gold;
-            this.button5.Location = new System.Drawing.Point(483, 401);
+            this.button5.Location = new System.Drawing.Point(376, 421);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(134, 49);
             this.button5.TabIndex = 10;
@@ -258,7 +171,7 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Location = new System.Drawing.Point(422, 252);
+            this.groupBox1.Location = new System.Drawing.Point(312, 261);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(264, 154);
             this.groupBox1.TabIndex = 19;
@@ -268,16 +181,17 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(440, 38);
+            this.pictureBox1.Location = new System.Drawing.Point(312, 38);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 180);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(646, 38);
+            this.label8.Location = new System.Drawing.Point(518, 38);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(82, 17);
             this.label8.TabIndex = 21;
@@ -286,36 +200,107 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.Gold;
-            this.button6.Location = new System.Drawing.Point(649, 169);
+            this.button6.Location = new System.Drawing.Point(521, 169);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(134, 49);
             this.button6.TabIndex = 22;
             this.button6.Text = "Pridėti į krepšelį";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(15, 86);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(264, 132);
+            this.listBox1.TabIndex = 23;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // button7
+            // 
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Location = new System.Drawing.Point(15, 41);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(120, 39);
+            this.button7.TabIndex = 24;
+            this.button7.Text = "Pavadinimas";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Location = new System.Drawing.Point(159, 41);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(120, 39);
+            this.button8.TabIndex = 25;
+            this.button8.Text = "Kaina";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(156, 261);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(120, 39);
+            this.button1.TabIndex = 27;
+            this.button1.Text = "Kaina";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(12, 261);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(120, 39);
+            this.button2.TabIndex = 26;
+            this.button2.Text = "Pavadinimas";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 16;
+            this.listBox2.Location = new System.Drawing.Point(12, 306);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(264, 132);
+            this.listBox2.TabIndex = 28;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(15, 445);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(48, 17);
+            this.label3.TabIndex = 29;
+            this.label3.Text = "Suma:";
             // 
             // Shop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
-            this.ClientSize = new System.Drawing.Size(950, 450);
+            this.ClientSize = new System.Drawing.Size(673, 540);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.listBox2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.listView2);
-            this.Controls.Add(this.listView1);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Name = "Shop";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Shop";
+            this.Load += new System.EventHandler(this.Shop_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -325,20 +310,9 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ListView listView2;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label4;
@@ -352,5 +326,12 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.Label label3;
     }
 }

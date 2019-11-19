@@ -1,7 +1,6 @@
 C:\Users\Rokas\source\repos\praktika\praktika\bin\Debug\praktika.exe.config
 C:\Users\Rokas\source\repos\praktika\praktika\bin\Debug\praktika.exe
 C:\Users\Rokas\source\repos\praktika\praktika\bin\Debug\praktika.pdb
-C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.csprojAssemblyReference.cache
 C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.Properties.Resources.resources
 C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.csproj.GenerateResource.cache
 C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.csproj.CoreCompileInputs.cache
@@ -9,13 +8,11 @@ C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.exe
 C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.pdb
 C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.MainLangas.resources
 C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.Shop.resources
-C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.Krepselis.resources
 C:\Users\Rokas\source\repos\praktika\praktika\bin\Debug\System.Data.SqlClient.dll
 C:\Users\Rokas\source\repos\praktika\praktika\bin\Debug\System.Data.SQLite.dll
 C:\Users\Rokas\source\repos\praktika\praktika\bin\Debug\System.Data.SqlClient.xml
 C:\Users\Rokas\source\repos\praktika\praktika\bin\Debug\System.Data.SQLite.xml
 C:\Users\Rokas\source\repos\praktika\praktika\bin\Debug\System.Data.SQLite.dll.config
 C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.csproj.CopyComplete
-C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.Items.resources
 C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.FLogin.resources
 C:\Users\Rokas\source\repos\praktika\praktika\obj\Debug\praktika.Managment.resources
